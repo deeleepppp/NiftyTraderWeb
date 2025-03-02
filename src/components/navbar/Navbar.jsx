@@ -29,7 +29,7 @@ const Navbar = () => {
         
           <div className="flex items-center gap-4">
             <img
-              src="public/images/logo.png"
+              src="/images/logo.png"
               className="h-8 w-32 sm:h-10 sm:w-40"
               alt="Logo"
             />

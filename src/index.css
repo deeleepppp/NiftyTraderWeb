@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+.inline-flex {
+  animation: scrollRightToLeft 30s linear infinite;
+}
+
+
+@keyframes scrollRightToLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+.overflow-hidden:hover .inline-flex {
+  animation-play-state: paused;
+}
+
+::-webkit-scrollbar {
+  width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #9267f7, #9262fc);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #6a5d86, #9f7aea); 
+}

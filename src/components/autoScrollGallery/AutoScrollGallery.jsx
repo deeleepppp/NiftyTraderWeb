@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 const images = [
-  "/images/scroll1.png",
-  "/images/scroll2.png",
-  "/images/scroll3.png"
+  "/icons/scroll1.svg",
+  "/icons/scroll2.svg",
+  "/icons/scroll3.svg",
+  "/icons/scroll4.svg"
 ];
 
 const AutoScrollGallery = () => {

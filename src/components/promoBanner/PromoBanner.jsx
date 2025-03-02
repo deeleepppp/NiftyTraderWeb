@@ -7,7 +7,7 @@ const PromoBanner = () => {
     <div
       className="relative flex flex-col md:flex-row items-center w-full px-4 md:px-6 lg:py-8 py-18 pb-20 pt-8"
       style={{
-        backgroundImage: "url('/images/promobg.png')",
+        backgroundImage: "url('/icons/promobg.svg')",
         backgroundSize: "cover",
         backgroundPosition: "right center",
       }}
